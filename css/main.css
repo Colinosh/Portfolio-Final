@@ -1,0 +1,83 @@
+.bckdimg .blue {
+  background-image: url(../img/blueb.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  postion: fixed;
+  z-index: 1;
+}
+.bckdimg .name {
+  background-image: url(../img/name.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+
+nav {
+  width: 100vw;
+  padding-left: 200px;
+  border-bottom: 2px;
+  border-bottom-color: #626566;
+  border-top: 2px;
+  border-top-color: #626566;
+}
+
+.tab > li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8rem;
+  color: #294C67;
+  text-align: center;
+  letter-spacing: 15px;
+  text-indent: 20px;
+  position: center;
+  display: inline;
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+.content {
+  clear: both;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 1.6rem;
+  position: relative;
+  left: 100px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #EF4136;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  color: #294C67;
+  letter-spacing: 8px;
+  text-indent: 40px;
+  position: center;
+  left: 100px;
+  font-size: .9rem;
+  line-height: 1.5rem;
+}
+
+h2 .in a:link {
+  text-decoration: none;
+  color: #294C67;
+  font-family: 'Opens Sans', serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #626566;
+  font-family: georgia, serif;
+  line-height: 1.6;
+  margin: 0 50px 20px 50px;
+}
+p a:link {
+  text-decoration: none;
+  color: #626566;
+  font-family: 'Opens Sans', serif;
+}
