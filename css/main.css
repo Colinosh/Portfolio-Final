@@ -4,22 +4,9 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*
-     .name{
-           background-image: url(../img/namdde.png) no repeat center center fixed;
-           -webkit-background-size: cover;
-           -moz-background-size:cover;
-           -o-background-size:cover;
-           background-size:cover;
-        }
-  */
 }
 
 header {
-  /*
-  height:91vh;
-  width:100vw;
-  */
   margin: 0 auto;
   text-align: center;
 }
@@ -53,6 +40,7 @@ nav {
   padding-left: 9em;
   overflow: hidden;
   margin: 0 auto;
+  padding-bottom: 8em;
 }
 
 .g li {
@@ -68,56 +56,6 @@ nav {
   height: 250px;
 }
 
-   /*
-      .g li:nth-child(odd) {
-         clear: left;
-      }
-
-      @media screen and (min-width: 40em) {
-         .g li {
-            width: 33.3333333333333333%;
-         }
-         .g li:nth-child(3n+1) {
-            clear: left;
-         }
-         .g li:nth-child(odd) {
-            clear: none;
-         }
-      }
-      @media screen and (min-width: 55em) {
-         .g li {
-            width: 25%;
-         }
-         .g li:nth-child(4n+1) {
-            clear: left;
-         }
-         .g li:nth-child(3n+1) {
-            clear: none;
-         }
-      }
-      @media screen and (min-width: 72em) {
-         .g li {
-            width: 20%;
-         }
-         .g li:nth-child(5n+1) {
-            clear: left;
-         }
-         .g li:nth-child(4n+1) {
-            clear: none;
-         }
-      }
-      @media screen and (min-width: 90em) {
-         .g li {
-            width: 16.666666666%;
-         }
-         .g li:nth-child(6n+1) {
-            clear: left;
-         }
-         .g li:nth-child(5n+1) {
-            clear: none;
-         }
-      }
-*/
 /*Images-content grid, responsive.
 */
 h1 {
@@ -159,6 +97,7 @@ p {
   line-height: 1.6;
   margin: 0 100px 0px 100px;
   font-size: 1.2rem;
+  padding-bottom: 50px;
 }
 p a:link {
   text-decoration: none;
